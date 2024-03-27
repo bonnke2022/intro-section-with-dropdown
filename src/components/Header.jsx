@@ -87,12 +87,8 @@ const Header = () => {
         </nav>
       </div>
       <div className="login-btn">
-        <button type="button" className="login btn">
-          Login
-        </button>
-        <button type="button" className="register btn">
-          Register
-        </button>
+        <button className="login btn">Login</button>
+        <button className="register btn">Register</button>
       </div>
       <button
         className="menu-btn"

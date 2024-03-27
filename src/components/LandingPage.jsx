@@ -17,7 +17,7 @@ const LandingPage = () => {
             Get your team in sync, no matter your location. Streamline
             processes, create rituals, and watch productivity soar.
           </p>
-          <button type="button" className="learn-btn btn text-white fw-700">
+          <button className="learn-btn btn text-white fw-700">
             Learn more
           </button>
         </div>

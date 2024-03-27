@@ -16,7 +16,6 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
   return (
     <Wrapper className="flex text-gray">
       <button
-        type="button"
         className="close-btn"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
       >
@@ -78,12 +77,8 @@ const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }) => {
         </li>
       </ul>
       <div className="login-btn">
-        <button type="button" className="login btn">
-          Login
-        </button>
-        <button type="button" className="register btn">
-          Register
-        </button>
+        <button className="login btn">Login</button>
+        <button className="register btn">Register</button>
       </div>
     </Wrapper>
   );
